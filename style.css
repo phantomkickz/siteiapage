@@ -1,0 +1,132 @@
+/* Global --------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    color: #fefefe;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 11pt;
+    cursor: default;
+    background-image: url("Imagens/universe.jpg");
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+header{
+    /*animation: bodybg 2s 0s linear infinite alternate;*/
+    text-align: center;
+    font-size: 25pt;
+    font-style: italic; 
+}
+/*
+@keyframes bodybg{
+    from   {background:red;}
+    to     {background:blue;}
+  }
+
+header:hover{
+    background-color: purple;
+    transition: .6s ease-in-out;
+}*/
+
+header a{
+    color: #fefefe !important;
+    padding: 5px;
+    transition: .6s ease-in-out;
+}
+
+header a:hover{
+    color: purple  !important;
+    transition: .6s ease-in-out;
+}
+
+h1{
+    padding-left: 115px;
+}
+
+p{
+    padding-left: 115px;
+}
+
+.sophiatext a{
+    color: limegreen;
+}
+
+#sophiaimg{
+    margin: 1.5em auto;
+    max-width: 98%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+
+button{
+    background-color: rgb(151, 57, 73);
+    border-radius: 20px;
+    margin: 1.5em auto;
+    max-width: 98%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    transition: 1s ease-in-out;
+}
+
+button:hover{
+    background-color: purple;
+    color: whitesmoke;
+    transition: 1s ease-in-out;
+}
+
+#luciano{
+    margin: 1.5em auto;
+    max-width: 98%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+#luciano.hide {
+    opacity: 0;
+}
+
+
+body::-webkit-scrollbar {
+    width: 2px;
+}
+
+body::-webkit-scrollbar-track {
+    background: black;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: purple;
+}
+
+#footer{
+    text-align: center;
+    margin-bottom: 50px;
+    opacity: 60%;
+    font-family: 'Inconsolata', monospace;
+}
+
+footer a{
+    color: white;
+}
