@@ -20,10 +20,16 @@ body {
 
 header{
     /*animation: bodybg 2s 0s linear infinite alternate;*/
-    text-align: center;
     font-size: 25pt;
     font-style: italic; 
 }
+
+#titlecontainer{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
 /*
 @keyframes bodybg{
     from   {background:red;}
@@ -33,7 +39,8 @@ header{
 header:hover{
     background-color: purple;
     transition: .6s ease-in-out;
-}*/
+}
+*/
 
 header a{
     color: #fefefe !important;
@@ -47,26 +54,26 @@ header a:hover{
 }
 
 h1{
-    padding-left: 115px;
+    padding-left: 9%;
 }
 
 p{
-    padding-left: 115px;
+    padding-left: 9%;
 }
 
 .sophiatext a{
     color: limegreen;
 }
 
-#sophiaimg{
-    margin: 1.5em auto;
-    max-width: 98%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 20px;
+#sophiacontainer{
+    position: relative;
+    display: flex;
+    justify-content: center;
 }
 
+.sophiaimg{
+    border-radius: 20px;
+}
 
 button{
     background-color: rgb(151, 57, 73);
