@@ -64,25 +64,30 @@ header a:hover{
     transition: .6s ease-in-out;
 }
 
-h1{
+
+#subtitlecontainer{
     padding-left: 9%;
 }
 
-p{
+#toptextcontainer{
     padding-left: 9%;
 }
 
-.sophiatext a{
+#bottomtextcontainer{
+    padding-left: 9%;
+}
+
+#bottomtextcontainer a{
     color: limegreen;
     transition: 0.3s ease-in-out;
 }
 
-.sophiatext a:hover{
+#bottomtextcontainer a:hover{
     color: red;
     transition: 0.3s ease-in-out;
 }
 
-#sophiacontainer{
+#sophiaimgcontainer{
     position: relative;
     display: flex;
     justify-content: center;
@@ -98,14 +103,15 @@ p{
     transition: 0.3s ease-in-out;
 }
 
-button{
+#buttoncontainer{
+    display: flex;
+    justify-content: center;
+}
+
+#button{
     background-color: rgb(151, 57, 73);
     border-radius: 20px;
     margin: 1.5em auto;
-    max-width: 98%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 100px;
     height: 30px;
     font-family: 'Roboto', sans-serif;
@@ -116,29 +122,26 @@ button{
     transition: 0.3s ease-in-out;
 }
 
-button:hover{
+#button:hover{
     background-color: purple;
     color: whitesmoke;
     transition: 0.3s ease-in-out;
 }
 
+#lucianocontainer{
+    display: flex;
+    justify-content: center;
+}
+
 #luciano{
-    margin: 1.5em auto;
-    max-width: 98%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     border-radius: 20px;
     opacity: 1;
     transition: 0.5s;
 }
 
-
-
 #luciano.hide {
     opacity: 0;
 }
-
 
 body::-webkit-scrollbar {
     width: 2px;
