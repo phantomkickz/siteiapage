@@ -152,13 +152,23 @@ body::-webkit-scrollbar-thumb {
     background-color: purple;
 }
 
-#footer{
-    text-align: center;
+#footercontainer{
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
     margin-bottom: 50px;
     opacity: 60%;
     font-family: 'Inconsolata', monospace;
 }
 
-footer a{
+.footer a{
     color: white;
+    transition: 0.2s ease-in-out;
+}
+
+.footer a:hover{
+    color: palegoldenrod;
+    transition: 0.2s ease-in-out;
 }
